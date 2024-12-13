@@ -38,14 +38,14 @@
   
   .member-tabset > .tab-content {
     margin-top: -3px;
-    background-color: white;
+    background-color: var();
     border: 0;
     border-top: 1px solid #eee;
     padding: 15px 0;
   }
 
-  .member-tabset h4, p {
-    color: black;
+  .member-tabset > .tab-content p, h4 {
+    color: white;
   }
   
   .nav-tabs {

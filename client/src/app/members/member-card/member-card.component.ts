@@ -3,11 +3,11 @@ import { Member } from '../../_models/member';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-member-card',
-  standalone: true,
-  imports: [RouterLink],
-  templateUrl: './member-card.component.html',
-  styleUrl: './member-card.component.css'
+    standalone: true,
+    selector: 'app-member-card',
+    imports: [RouterLink],
+    templateUrl: './member-card.component.html',
+    styleUrl: './member-card.component.css'
 })
 
 export class MemberCardComponent {
